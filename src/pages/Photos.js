@@ -11,10 +11,13 @@ function Photos() {
   ))
    
   return (
-    <main className='photos'>
-        {imageElements}
-    </main>
+    <div className='bg-slate-500 bg-auto bg-fixed bg-center bg-no-repeat md:w-screen m-auto md:m-auto h-screen md:h-screen'>
+      <main className='photos bg-slate-500'>
+          {imageElements}
+      </main>
+    </div>
   )
 }
  
 export default Photos
+

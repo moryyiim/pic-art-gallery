@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --black: #150605;
   --red: #ea453c;
@@ -11,10 +15,6 @@ body {
   font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
-}
-
-h2 {
-  text-shadow: 2px 4px grey;
 }
 
 main.photos {
@@ -37,11 +37,6 @@ main.cart-page {
 .cart-page .total-cost {
   text-align: right;
   font-size: 1.3em;
-}
-
-.cart-page div.order-button {
-  display: flex;
-  justify-content: center;
 }
 
 .submit {
